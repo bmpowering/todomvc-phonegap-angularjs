@@ -35,13 +35,13 @@ body {
 	-o-font-smoothing: antialiased;
 	font-smoothing: antialiased;
 	
-	-webkit-touch-callout:none;
+	/*-webkit-touch-callout:none;
 	-webkit-user-select:none;
 	-khtml-user-select:none;
 	-moz-user-select:none;
 	-ms-user-select:none;
 	user-select:none;
-	-webkit-tap-highlight-color:rgba(0,0,0,0);
+	-webkit-tap-highlight-color:rgba(0,0,0,0);*/
 }
 
 #todoapp {
@@ -223,7 +223,7 @@ label[for='toggle-all'] {
 	position: absolute;
 	top: 0;
 	bottom: 0;
-	margin: auto 0;
+	margin: 0px;
 	border: none; /* Mobile Safari */
 	-webkit-appearance: none;
 	/*-moz-appearance: none;*/
@@ -404,7 +404,7 @@ label[for='toggle-all'] {
 	}
 
 	#todo-list li .toggle {
-		height: 40px;
+		height: 55px;
 	}
 
 	#toggle-all {
